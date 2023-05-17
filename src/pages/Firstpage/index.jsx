@@ -13,7 +13,8 @@ const FirstpagePage = () => {
     setShowRegisterModal(true);
   };
   const handleLoginClick = () => {
-    setShowLoginModal(true); 
+    console.log('Login button clicked');
+    setShowLoginModal(true);
   };
 
   return (

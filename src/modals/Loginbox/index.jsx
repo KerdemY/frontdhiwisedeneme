@@ -10,37 +10,23 @@ const LoginboxModal = (props) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Validation
+    if (email === 'key@stu.khas.edu.tr' && password === 'ee112233') {
+      navigate('/mainpagematchtab');
+    } else {
+      setErrorMessage('Invalid email or password');
+    }
+  };
+  
 
   const handleEmailChange = (e) => setEmail(e.target.value);
   const handlePasswordChange = (e) => setPassword(e.target.value);
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    // Replace with your server-side API endpoint
-    const apiUrl = "https://your-api-endpoint.com/login";
-
-    try {
-      const response = await fetch(apiUrl, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email, password }),
-      });
-
-      if (response.ok) {
-        const data = await response.json();
-        // Perform necessary actions with the returned data
-        navigate("/mainpagematchtab");
-      } else {
-        const errorData = await response.json();
-        // Update the error message with server response
-        setErrorMessage(errorData.message || "An error occurred.");
-      }
-    } catch (error) {
-      setErrorMessage("An error occurred while processing your request.");
-    }
-  };
+ 
 
   return (
     <ModalProvider
