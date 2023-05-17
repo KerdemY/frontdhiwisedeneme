@@ -31,7 +31,8 @@ const MainpagematchtabPage = () => {
           
           <div className="flex flex-col gap-[55px] justify-start mb-[322px] md:ml-[0] ml-[26px] mr-[90px] mb-[237px] w-[68%]">
             <div className="flex flex-col gap-[55px] items-center justify-start ml-1.5 md:ml-[0] w-[79%] md:w-full">
-              <div className="flex flex-row gap-[11px] items-center justify-start w-full">
+              <div className="flex flex-row gap-[11px] items-center justify-start w-full"
+              onClick={() => navigate("/profile")}>
                 <Img
                   src="images/img_user.svg"
                   className="h-[65px] w-[65px]"
