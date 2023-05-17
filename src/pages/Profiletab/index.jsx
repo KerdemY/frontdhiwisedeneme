@@ -23,14 +23,14 @@ const ProfiletabPage = () => {
                             as="h1"
                             variant="h1"
                           >
-                            Name, Age
+                            Kemal, 20
                           </Text>
                           <Text
                             className="font-medium text-blue_gray_100_01 text-left w-auto"
                             as="h5"
                             variant="h5"
                           >
-                            University, Department
+                            Kadir Has, CS
                           </Text>
                         </div>
                       </div>
@@ -62,9 +62,7 @@ const ProfiletabPage = () => {
                       as="h5"
                       variant="h5"
                     >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Praesent lacinia aliquet felis interdum tempor. Aenean
-                      vitae laoreet dolor. Mauris consequat porta vehicula.{" "}
+                      Ben çok ilginç biriyim. Hadi keşfedelim.{" "}
                     </Text>
                   </div>
                 </div>
@@ -81,17 +79,12 @@ const ProfiletabPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    bir şeyler, zart, zurt, artgghgg, herhangi bir hobi
+                    gezmek, herhangi bir hobi, spor
                   </Text>
                 </div>
               </div>
             </div>
-            <Text
-              className="md:ml-[0] ml-[9px] text-left text-white_A700 w-auto"
-              variant="body3"
-            >
-              (varsa) diğer fotoğraflar eklenebilir buraya belki
-            </Text>
+           
           </div>
         </div>
       </div>
