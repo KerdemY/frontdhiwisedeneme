@@ -22,7 +22,7 @@ const FirstpagePage = () => {
       <div className="bg-gray_900 border border-black_900 border-solid font-ggsans min-h-screen mx-auto relative w-full">
         <div
           className="bg-cover bg-no-repeat flex flex-col min-h-screen items-center justify-end w-full"
-          style={{ backgroundImage: "url('images/img_group3.png')" }}
+          style={{ backgroundImage: "url('images/img_group15.png')" }}
         >
           <div className="bg-gray_900_7f border border-solid border-white_A700_19 flex flex-col gap-[18px] items-center justify-center mt-[641px] p-[25px] md:px-5 rounded-sm w-[53%] md:w-full">
             <Text
@@ -46,17 +46,11 @@ const FirstpagePage = () => {
         <header className="absolute bg-gray_900_7f border border-solid border-white_A700_19 flex md:flex-col flex-row md:gap-5 inset-x-[0] items-center justify-center mx-auto md:px-5 rounded-sm top-[0] w-full">
           <div className="flex md:flex-1 flex-row gap-[5px] items-center justify-center mb-2.5 ml-10 md:ml-[0] md:mt-0 mt-[18px] w-[16%] md:w-full">
             <Img
-              src="images/img_icon512x512normal2x.png"
-              className="h-[70px] md:h-auto object-cover w-[70px]"
+              src="images/img_unionlogo11.png"
+              className="h-[auto] md:h-auto object-cover w-[auto]"
               alt="icon512x512norm"
             />
-            <Text
-              className="text-center text-gray_100 w-auto"
-              as="h2"
-              variant="h2"
-            >
-              UniOn
-            </Text>
+            
           </div>
           <div className="flex md:flex-1 sm:flex-col flex-row sm:gap-5 items-start justify-center mb-[26px] ml-12 md:ml-[0] md:mt-0 mt-[39px] w-1/4 md:w-full">
             <Text

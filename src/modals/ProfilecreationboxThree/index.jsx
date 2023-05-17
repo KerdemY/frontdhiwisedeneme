@@ -1,8 +1,6 @@
 import React from "react";
 import { default as ModalProvider } from "react-modal";
-
 import { useNavigate } from "react-router-dom";
-
 import { Text } from "components";
 
 const ProfilecreationboxThreeModal = (props) => {
@@ -10,10 +8,11 @@ const ProfilecreationboxThreeModal = (props) => {
 
   return (
     <ModalProvider
+      isOpen={props.isOpen}
+      onRequestClose={props.onRequestClose}
       appElement={document.getElementById("root")}
       className="m-auto !w-[63%]"
       overlayClassName="bg-gray_900_4c fixed flex h-full inset-y-[0] w-full"
-      {...props}
     >
       <div className="max-h-[97vh] overflow-y-auto sm:w-full md:w-full">
         <div className="bg-gray_900 border-4 border-blue_gray_100 border-solid flex flex-col items-center justify-end max-w-[939px] mx-auto p-[55px] md:px-5 w-full">

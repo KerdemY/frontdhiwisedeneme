@@ -16,17 +16,11 @@ const MainpagematchtabPage = () => {
             onClick={() => navigate("/")}
           >
             <Img
-              src="images/img_icon512x512normal2x.png"
-              className="h-[70px] md:h-auto object-cover w-[70px]"
+              src="images/img_unionlogo11.png"
+              className="h-[auto] md:h-auto object-cover w-[auto]"
               alt="icon512x512norm"
             />
-            <Text
-              className="text-center text-gray_100 w-auto"
-              as="h2"
-              variant="h2"
-            >
-              UniOn
-            </Text>
+        
           </div>
           
           <div className="flex flex-col gap-[55px] justify-start mb-[322px] md:ml-[0] ml-[26px] mr-[90px] mb-[237px] w-[68%]">
